@@ -1,0 +1,68 @@
+/*MainSlider*/
+
+.mainSliderIMG {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  filter: brightness(0.4);
+}
+
+.mainText {
+  position: absolute;
+  /* color: #fafafa; */
+  color: white;
+  font-family: lato;
+  font-size: 10rem;
+  text-align: center;
+  z-index: 999;
+  /* width: 5rem;
+  height: 3rem; */
+  /* margin-top: 10rem; */
+  display: flex;
+  flex-direction: row;
+  margin-left: -8rem; 
+  overflow: hidden;
+
+}
+
+.yhLink {
+  flex: 5;
+  /* position: absolute; */
+  text-align: right;
+}
+
+.yhLinkSpan {
+  position: relative;
+  top: 37%;
+  opacity: 1;
+}
+
+.yhLinkSpan:hover {
+  opacity: 0.5;
+}
+
+.dotLink {
+  position: relative;
+  top: 37%;
+  flex: 1;
+}
+
+.archiLink {
+  position: relative;
+  top: 37%;
+  flex: 5;
+  text-align: left;
+}
+
+.archiLinkSpan {
+  opacity: 1;
+}
+
+.archiLinkSpan:hover {
+  opacity: 0.5;
+}
+
+.blockposition {
+  width: 100%;
+  height: 10rem;;
+}
