@@ -5,7 +5,6 @@ import "slick-carousel/slick/slick-theme.css";
 import '../style/MainSlider.css';
 import { Link } from 'react-router-dom';
 
-
 // class MainSliderDIV extends Component {
 //   render(){
 //     return (
@@ -24,7 +23,7 @@ import { Link } from 'react-router-dom';
 class MainSlider extends Component {
   constructor(props){
     super(props);
-    this.state = { }
+    this.state = {}
   };
 
   render(){
@@ -39,8 +38,8 @@ class MainSlider extends Component {
     const settings = {
       dots: false,
       infinite: true,
-      speed: 1000,
-      // autoplaySpeed: 1000,
+      speed: 1500,
+      autoplaySpeed: 3000,
       pauseOnHover: false,
       autoplay: true,
       draggable: false,
@@ -56,7 +55,7 @@ class MainSlider extends Component {
         {/* <div className="blockposition"> </div> */}
         <div className="mainText">
           <div className="yhLink">
-            <Link to="/mainhome">
+            <Link to="/profile">
               <span className="yhLinkSpan">YH</span>
             </Link> 
           </div>
@@ -83,6 +82,8 @@ class MainSlider extends Component {
             );
           })}
         </Slider>
+
+        
       </div>
     );
   }

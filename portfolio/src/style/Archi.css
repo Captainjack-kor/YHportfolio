@@ -1,0 +1,35 @@
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.archiLogo {
+  height: 8rem;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 700;
+}
+
+.archiYhLinkSpan {
+  color: rgb(0, 0, 0);
+  font-size: 6rem;
+  margin-left: 1rem;
+}
+.archiDotLinkSpan {
+  color: rgb(0, 0, 0);
+  font-size: 6rem;
+  margin-left: 1rem;
+}
+.archiArchiLinkSpan {
+  color: rgb(224, 19, 19);
+  font-size: 6rem;
+  margin-left: 1rem;
+}
+
+.initPosition {
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.middleContents {
+  height: auto;
+}

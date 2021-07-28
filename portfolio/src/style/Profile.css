@@ -1,0 +1,29 @@
+.profileLogo {
+  height: 8rem;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 700;
+  /* background-color: teal; */
+  /* display: flex;
+  flex-direction: row; */
+  /* text-align: left; */
+}
+
+.profileYhLink {
+  height: auto;
+}
+
+.profileYhLinkSpan {
+  color: rgb(45, 149, 247);
+  font-size: 6rem;
+  margin-left: 1rem;
+}
+.profileDotLinkSpan {
+  color: rgb(0, 0, 0);
+  font-size: 6rem;
+  margin-left: 1rem;
+}
+.profileArchiLinkSpan {
+  color: rgb(0, 0, 0);
+  font-size: 6rem;
+  margin-left: 1rem;
+}

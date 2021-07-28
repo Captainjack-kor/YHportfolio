@@ -1,0 +1,49 @@
+#footer {
+  border-top: 1px solid lightgray;
+  left: 0;
+  bottom: 0;
+  height: 20rem;
+  width: 100%;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 700;
+}
+
+#footer > div {
+  height: auto;
+  /* background-color: lightgreen; */
+  margin-left: 3rem;
+  margin-top: 3rem;
+}
+
+#footer > div > div {
+  height: auto;
+}
+
+.footerLogo {
+  color: black;
+  height: auto;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.emailInfo {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: lightgreen;
+}
+
+.emailInfo:hover {
+  color: rgb(120, 198, 224);
+  transition: 0.35;
+}
+
+.footerinfo {
+  /* font-weight: 500; */
+}
+
+.footerinfoEng {
+  margin-bottom: 2rem;
+}

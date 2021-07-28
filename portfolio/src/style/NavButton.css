@@ -1,0 +1,15 @@
+.icon {
+  position: fixed;
+  font-size: 2rem;
+  background-color: rgb(255, 255, 255);
+  left: 90%;
+  top: 5%;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 70%;
+}
+
+.iconPosition {
+  margin-left: 0.7rem;
+  margin-top: 0.7rem;
+}

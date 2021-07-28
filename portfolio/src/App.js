@@ -1,16 +1,18 @@
-//import logo from './logo.svg';
-import './App.css';
-import MainSlider from "../src/components/MainSlider";
+import MainSlider from "./pages/MainSlider";
+import Profile from "./pages/Profile";
+import Archi from "./pages/Archi";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import './App.css';
 
 function App() {
 
   return (
     <Router>
-      <div className="main">
-        <Route exact path="/" component={MainSlider}> </Route>
-        <MainSlider />
+      <div>
+        <Route exact path="/" component={MainSlider} />
         <Switch>
+         <Route path="/profile" component={Profile} />
+         <Route path="/archi" component={Archi} />
         </Switch>
       </div>
     </Router>
