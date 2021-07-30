@@ -3,12 +3,6 @@ body {
   overflow-y: auto;
 }
 
-.archiLogo {
-  height: 8rem;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-weight: 700;
-}
-
 .archiYhLinkSpan {
   color: rgb(0, 0, 0);
   font-size: 6rem;
@@ -25,11 +19,33 @@ body {
   margin-left: 1rem;
 }
 
-.initPosition {
-  /* display: flex;
-  flex-direction: column; */
-}
-
 .middleContents {
   height: auto;
+}
+
+.initPosition {
+  display: flex;
+  flex-direction: column;
+}
+
+.archiLogo {
+  height: 8rem;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 700;
+  /* flex: 1; */
+}
+
+/* .midLogo {
+  flex: 1;
+}
+
+.bottomLogo {
+  flex: 1;
+} */
+
+
+
+.divideArchipage {
+  display: flex;
+  flex-direction: column;
 }

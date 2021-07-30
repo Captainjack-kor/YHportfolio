@@ -8,26 +8,24 @@ const Archi = () => {
   return (
     <>
       <NavButton />
-      <div className="initPosition">
-        <div className="archiLogo">
-          <div className="profileYhLink">
-            <Link to="/profile">
-              <span className="archiYhLinkSpan">YH</span>
-            </Link> 
-              <span className="archiDotLinkSpan">·</span> 
-            <Link to="/archi">
-              <span className="archiArchiLinkSpan">ARCHI</span> 
-            </Link>
+      <div className="divideArchipage">
+        <div className="initPosition">
+          <div className="archiLogo">
+            <div className="profileYhLink">
+              <Link to="/profile">
+                <span className="archiYhLinkSpan">YH</span>
+              </Link> 
+                <span className="archiDotLinkSpan">·</span> 
+              <Link to="/archi">
+                <span className="archiArchiLinkSpan">ARCHI</span> 
+              </Link>
+            </div>
           </div>
         </div>
-
-        {/* <div className="middleContents">
-
-        </div> */}
-        <MainContents />
-
+          <MainContents />
+          <Footer />
+        
       </div>
-        <Footer />
     </>
   );
 }

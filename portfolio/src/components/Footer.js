@@ -12,7 +12,7 @@ import SendEmail from "../components/SendEmail";
 
 const Footer = () => {
   return (
-    <>
+    <div>
       <div id="footer">
         <div>
           <div className="footerLogo">YH · ARCHI</div>
@@ -27,7 +27,7 @@ const Footer = () => {
 
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
