@@ -12,7 +12,7 @@ const Profile = () => {
   return (
     <>
     {/* YH · ARCHI */}
-      {/* <div className="initPosition">
+      <div className="initPosition">
         <div className="profileLogo">
           <div className="profileYhLink">
             <Link to="/profile">
@@ -23,11 +23,16 @@ const Profile = () => {
               <span className="profileArchiLinkSpan">ARCHI</span> 
             </Link>
           </div>
-        </div> */}
-        {/* <div className="middleContents">
-
-        </div> */}
-      <Layout>
+        </div>
+        <div className="middleContentsProfile">
+          <div></div>
+          <div className="centerPosition">
+            <img className="selfiePic" alt="" src="https://media.vlpt.us/images/iooi75/post/74341abe-4af8-4c38-a632-72cc0d567ad6/KakaoTalk_Photo_2021-08-07-22-34-17.jpeg" />
+            <div> 연혁 </div>
+          </div>
+          <div></div>
+        </div>
+      {/* <Layout>
         <Sider
           breakpoint="lg"
           collapsedWidth="0"
@@ -62,10 +67,10 @@ const Profile = () => {
             </div>
           </Content>
         </Layout>
-      </Layout>
+      </Layout> */}
 
-      {/* <Footer />  */}
-      {/* </div> */}
+      <Footer /> 
+      </div>
 
     </>
   );

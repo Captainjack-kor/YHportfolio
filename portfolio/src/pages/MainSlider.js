@@ -54,21 +54,30 @@ class MainSlider extends Component {
       <>
         {/* <div className="blockposition"> </div> */}
         <div className="mainText">
-          <div className="yhLink">
-            <Link to="/profile">
-              <span className="yhLinkSpan">YH</span>
-            </Link> 
+          <div>
+
           </div>
-          <div className="dotLink"> 
-            <span className="dotLinkSpan">·</span> 
+          <div className="linkAlign">
+            <div className="yhLink">
+              <Link to="/profile">
+                <span className="yhLinkSpan">YH</span>
+              </Link> 
+            </div>
+            <div className="dotLink"> 
+              <span className="dotLinkSpan">·</span> 
+            </div>
+            <div className="archiLink"> 
+              <Link to="/archi">
+                <span className="archiLinkSpan">ARCHI</span> 
+              </Link>
+            </div>
           </div>
-          <div className="archiLink"> 
-            <Link to="/archi">
-              <span className="archiLinkSpan">ARCHI</span> 
-            </Link>
+
+          <div>
+
           </div>
         </div>
-        <Slider {...settings}>
+        <Slider {...settings} className="slider">
           {items.map(item => {
             return (
               <div key={item.id} className="mainSliderDiv">

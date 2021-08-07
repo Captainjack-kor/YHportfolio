@@ -8,6 +8,25 @@
   /* text-align: left; */
 }
 
+.middleContentsProfile {
+  margin-top: 2rem;
+  display: flex;
+}
+
+.middleContentsProfile > div {
+  flex: 1;
+}
+
+.centerPosition {
+  display: flex;
+  flex-direction: column;
+}
+
+.selfiePic {
+  width: 30rem;
+  object-fit: cover;
+}
+
 .profileYhLink {
   height: auto;
 }

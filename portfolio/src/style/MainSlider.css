@@ -1,19 +1,24 @@
 /*MainSlider*/
 
 html, body {
-	width: 100%; height: 100%;
+	width: 100%; 
+  height: 100%;
+}
+
+.slider {
+  overflow: hidden;
+  max-height: 100vh;
 }
 
 .mainSliderIMG {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   overflow: hidden;
   filter: brightness(0.4);
 }
 
 .mainSliderDiv {
   margin: 0px;
-  padding: -5px;
 }
 
 
@@ -40,6 +45,16 @@ a:hover {
   color: white;
 }
 
+.linkAlign {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+}
+
+.mainText > div {
+  flex: 1;
+}
+
 .mainText {
   position: absolute;
   /* color: #fafafa; */
@@ -53,21 +68,19 @@ a:hover {
   height: 3rem; */
   /* margin-top: 10rem; */
   display: flex;
-  flex-direction: row;
-  margin-left: -8rem; 
+  flex-direction: column;
   /* overflow: hidden; */
 
 }
 
 .yhLink {
-  flex: 5;
   /* position: absolute; */
   text-align: right;
 }
 
 .yhLinkSpan {
   position: relative;
-  top: 37%;
+  /* top: 37%; */
   opacity: 1;
 }
 
@@ -83,8 +96,7 @@ a:hover {
 
 .dotLinkSpan {
   position: relative;
-  top: 37%;
-  flex: 1;
+  /* top: 37%; */
 }
 
 /* .archiLink {
@@ -96,8 +108,7 @@ a:hover {
 
 .archiLinkSpan {
   position: relative;
-  top: 37%;
-  flex: 5;
+  /* top: 37%; */
   text-align: left;
 }
 
