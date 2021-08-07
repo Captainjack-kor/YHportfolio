@@ -51,7 +51,7 @@ class MainSlider extends Component {
 
 
     return (
-      <div>
+      <>
         {/* <div className="blockposition"> </div> */}
         <div className="mainText">
           <div className="yhLink">
@@ -84,7 +84,7 @@ class MainSlider extends Component {
         </Slider>
 
         
-      </div>
+      </>
     );
   }
 }

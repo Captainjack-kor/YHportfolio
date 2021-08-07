@@ -28,62 +28,17 @@ class MainContents extends Component {
     return (
       <>
         <div className="mainpicDiv">
-          <Image
-            className="plz"
-            // width={500}
-            // height={500}
-            alt= ""
-            src="http://www.issuemaker.kr/news/photo/old/14469592276738.jpg"
-            preview={{mask:"2020년 공모전 수상 내역"}}
-          />
-          <Image
-            className="plz"
-            // width={500}
-            // height={500}
-            alt= ""
-            src="http://www.issuemaker.kr/news/photo/old/14469592276738.jpg"
-            preview={{mask:"2020년 공모전 수상 내역"}}
-          />
-          <Image
-            className="plz"
-            // width={500}
-            // height={500}
-            alt= ""
-            src="http://www.issuemaker.kr/news/photo/old/14469592276738.jpg"
-            preview={{mask:"2020년 공모전 수상 내역"}}
-          />
-          <Image
-            className="plz"
-            // width={500}
-            // height={500}
-            alt= ""
-            src="http://www.issuemaker.kr/news/photo/old/14469592276738.jpg"
-            preview={{mask:"2020년 공모전 수상 내역"}}
-          />
+          {/* 그냥 이미지에 이미지 툴 적용해야함 */}
+          {items.map(item => {
+            return (
+              <div key={item.id} className="picPosition" >
+                <img className="pic" alt="" src={item.url} />
+              </div>
+            );
+          })}
         </div>
         
-        {/* <div className="divideContents">
-          <div className="picDivider">
-
-           <div className="picPosition">
-            <img alt="" className="pic" src="https://dimg.donga.com/wps/NEWS/IMAGE/2019/03/20/94639700.1.jpg" />
-           </div>
-
-           <div className="picPosition">
-            <img alt="" className="pic" src="http://www.issuemaker.kr/news/photo/old/14469592276738.jpg" />
-           </div>
-
-           <div className="picPosition">
-            <img alt="" className="pic" src="http://www.issuemaker.kr/news/photo/old/14469592276738.jpg" />
-           </div>
-
-           <div className="picPosition">
-            <img alt="" className="pic" src="http://www.sjsori.com/news/photo/201806/31008_35968_558.gif" />
-           </div>
-
-           
-          </div>
-        </div> */}
+        
       </>
     );
   }
